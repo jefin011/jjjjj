@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 1;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1600px;
+    padding:  5px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #344e68;
+  }
+  
+  .navbar-brand {
+    font-weight:200px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #cce7ed;
+  }
+  
+  /* Header Styles */
+  #header {
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #60432f;
+  }
+  
+  /* About Section Styles */
+  #about h1 {
+    margin-bottom: 30px;
+  }
+  
+  /* Team Section Styles */
+  #team h1 {
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  /* Gallery Section Styles */
+  #gallary h1 {
+    margin-bottom: 30px;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    padding: 60px 0;
+  }
+  
+  #contact input[type="text"],
+  #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #6274d2;
+    border-radius: 4px;
+  }
+  
+  #contact input[type="submit"] {
+    background-color: #20646b;
+    color: #64bebe;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #contact input[type="submit"]:hover {
+    background-color: #4d757f;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #7f1e1e;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #38626d;
+    text-decoration: none;
+  }
+  
+
+  .containers {
+    margin-top: 50px;
+  }
+  
+  .contain {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contain .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contain .col {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .contain input[type="text"],
+  .contain textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #985050;
+    border-radius: 4px;
+  }
+  
+  .contain textarea {
+    margin-bottom: 10px; 
+  }
+  
+  .contain .text-right {
+    text-align: right;
+  }
+  
+  .contain input[type="submit"] {
+    background-color: #a1bf4f;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contain input[type="submit"]:hover {
+    background-color: #73cad9;
+  }
